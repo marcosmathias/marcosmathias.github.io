@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Magnesium MVB Std';
+    src: url('MagnesiumMVBStd.woff2') format('woff2'),
+        url('MagnesiumMVBStd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+		width: 98vw;
+		overflow: hidden;
+	}
+	.logo{
+		margin-left: 42.5vw;
+		width: 15vw;
+		bottom: 0;
+		vertical-align: middle;
+	}
+	.logo_redes{
+		width: 3vw;
+		bottom: 0;
+		vertical-align: middle;
+	}
+	.logo_games{
+		width: 11vw;
+		bottom: 0;
+		vertical-align: middle;
+		margin-left: 11vw;
+	}
+	.logo_partner{
+		width: 7vw;
+		position: absolute;
+		top: 96vh;
+	}
+	.texto{
+		font-family: Magnesium MVB Std;
+		width: 100vw;
+		text-align: center;
+		color: #cccccc;
+		text-shadow: 0 0 6px #005CA2;
+		vertical-align: middle;
+		font-size: 2vw;
+	}
+	.texto_apoio{
+		font-family: Magnesium MVB Std;
+		width: 100vw;
+		color: #dddddd;
+		text-shadow: 0 0 6px #005CA2;
+		font-size: 1vw;
+	}
+	.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+#rede1{
+		margin-left: 46.5vw;
+	}
+
+@media only screen and (max-width: 1000px){
+	.logo{
+		margin-left: 35vw;
+		width: 30vw;
+		bottom: 0;
+		vertical-align: middle;
+	}
+	.logo_redes{
+		width: 6vw;
+		bottom: 0;
+		vertical-align: middle;
+	}
+	.logo_games{
+		width: 22vw;
+		margin-left: 8vw;
+		bottom: 0;
+		vertical-align: middle;
+	}
+	#rede1{
+		margin-left: 42.5vw;
+	}
+	.texto_apoio{
+		font-size: 2vw;
+	}
+	.texto{
+		font-size: 4vw;
+	}
+}

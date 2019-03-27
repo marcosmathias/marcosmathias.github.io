@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Magnesium MVB Std';
+    src: url('MagnesiumMVBStd.woff2') format('woff2'),
+        url('MagnesiumMVBStd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
