@@ -84,4 +84,16 @@ body{
 	.texto{
 		font-size: 4vw;
 	}
+	.container{
+		display: none;
+	}
+	.computador{
+		display: inline;
+	}
+}
+
+@media only screen and (min-width: 1000px){
+	.computador{
+		display: none;
+	}
 }
